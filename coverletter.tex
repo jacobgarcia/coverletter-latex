@@ -1,0 +1,106 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{cv/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-emerald}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Jacob}{Garcia}
+\address{Mexico City}
+\mobile{(+52) 15-58145-2376} 
+%%% Social
+\email{mario@nure.mx}
+\homepage{nure.mx}
+\github{jacobgarcia}
+\linkedin{jacobgarcia}
+%%% Optionals
+\position{Software Engineer{\enskip\cdotp\enskip}Full Stack Developer}
+\quote{Avant-garde mixer of art, science and technology. Complex problem-solver with an
+analytical and driven mindset. Full-stack developer using MERN technology. Passionate video game builder using Unity and UE}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Letter Data (Cover Letter)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\letterdate{\today}
+\lettertitle{Job Application for Full-Stack Developer}
+\letteropening{Dear Nejeed,}
+\letterclosing{Sincerely,}
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Jacob Garcia~~~·~~~Cover Letter}
+  {Keela}
+
+\begin{document}
+%%% Make a header for CV using personal data
+\makecvheader
+
+%%% Make a title for Cover Letter using letter data
+\makelettertitle
+
+%%% Write content for your cover letter
+\begin{cvletter}
+\cvparagraph{About Me}
+I am an enthusiastic engineer who loves to learn new skills, redesign the ways to obtain them and show the world what you can do with them. I own a spirited interest in technological advances and flamboyant ways in which you can create solutions based on these. I previously worked for "México Es Nuestro Compromiso" organization, implementing a web based game (Quadrality). I've decided to help this organization because it promoted human rights for children in Mexican schools, where there's a lack of education on this topic. 
+
+\cvparagraph{Why Keela?}
+I'm looking for an organic environment with fluid teamwork and mutual cooperation in diverse areas of knowledge. Keela draws my attention because it is willing to take risks and innovate in fields that others leave behind. I want to work in a place where my job becomes meaningful to others, a place where I can help people reach further and innovate more.
+
+\cvparagraph{Why Me?}
+ Coding it's my daily driver. I love helping others and find extremely necessary in doing so. I have experience as a Full-Stack developer over 2 years in multiple projects using mostly the MERN technology stack and a fast learner on whatever is necessary. Because all of this, I believe I would be a good asset for Keela.
+ 
+\end{cvletter}
+
+%%% Make a closing for Cover Letter using letter data
+\makeletterclosing
+
+\end{document}
